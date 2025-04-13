@@ -1,0 +1,7 @@
+Prompt: Can you explain the Zeotap wrangler assignment step by step?
+Prompt: How do I add support for 10KB, 2MB and convert them into bytes in Java?
+Prompt: How to update ANTLR grammar to support MB, GB, ms, s?
+Prompt: Can you help me write unit tests for parsing byte sizes and time durations?
+Prompt: How do I implement a new directive that aggregates stats from byte and time units?
+Prompt: How to regenerate ANTLR grammar in Maven project?
+Prompt: How to write a README.md entry for new directive?
