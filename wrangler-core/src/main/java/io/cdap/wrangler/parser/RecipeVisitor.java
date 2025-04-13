@@ -327,3 +327,13 @@ public final class RecipeVisitor extends DirectivesBaseVisitor<RecipeSymbol.Buil
     return new SourceInfo(lineno, column, text);
   }
 }
+
+@Override
+public Token visitByteSizeArg(WranglerParser.ByteSizeArgContext ctx) {
+    return new ByteSize(ctx.getText());
+}
+
+@Override
+public Token visitTimeDurationArg(WranglerParser.TimeDurationArgContext ctx) {
+    return new TimeDuration(ctx.getText());
+}
